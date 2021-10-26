@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+/* header styling  */
+.mq-n, .toggle, .tog-X{
+    display: none;
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 1rem;
+    position: sticky;
+    top: 0;
+    padding: .5rem 1rem;
+    border-radius:0 0 15px 15px;
+    z-index: 1;
+}
+.d-logo{
+    width: 8.55%;
+    height: 80%;
+    margin: 1.3rem 0;
+}
+nav{
+    margin: 2.5rem 0;
+}
+nav ul li{
+    display: inline;
+    padding: 1.5rem;
+}
+nav ul li a{
+  color:  #222222;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  opacity: 0.6;
+  font-size: 15px;
+  transition: ease-in-out .6s;
+}
+nav ul li a:hover{
+    opacity: 1;
+    transition: ease-in-out .6s;
+}
+.nav-btn{
+    margin: 1.5rem 1rem;
+    padding: 1rem 1.5rem;
+    height: fit-content;
+    transition: ease-in-out .6s;
+    background-color: rgb(145, 104, 80);
+}
+.nav-btn:hover{
+    transition: ease-in-out 1s;
+    border-radius: 10px;
+}
+.nav-btn a{
+  font-weight: 600;
+    font-size: 13.5px;
+    color: white;
+}
+
+/* home section styling  */
+#home{
+    margin: 1.5rem 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.hide{
+    visibility: hidden;
+}
+.home-img{
+    margin: 1rem 0; 
+     background-size: cover;
+    background-image: url(./images/home-img.png);
+    width: 100%;
+    border-radius: 1rem;
+    padding: 6rem;
+}
+.home-btn{
+    margin: 2rem 1rem;
+    height: fit-content;   
+}
+.home-btn a:hover{
+    transition: ease-in-out 1s;
+    background-color: whitesmoke;
+    color:rgb(145, 104, 80);
+  font-weight: 600;
+  font-size: 16px;
+}
+.home-btn a{
+    transition: ease-in-out .6s;
+    padding: .8rem 2rem;
+    background-color: rgb(145, 104, 80);
+    font-size: 13.8px;
+    color: white;
+    border: 1px solid rgb(145, 104, 80);
+}
+.p-home{
+    opacity: 0.6;
+    color: #222222; 
+    margin: 2rem;
+}
+.h-home{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.h3-home{
+    margin: 1.5rem;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 400;
+}
+hr{
+    opacity: 0.6;
+    margin: 1rem 5rem;
+}
+
+/* about section styling */
+#about{
+    display: flex;
+    margin: 3rem;
+}
+.text{
+    margin: 3.5rem;
+    margin-top: 0rem;
+}
+.longP{
+    margin-top: -18px;
+    margin-bottom: 19px;
+    padding-top: 37px;
+    padding-bottom: 47px;
+    opacity: 0.93;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+/* team section styling */
+#team{
+    display: flex;
+    margin: 5rem;
+    gap: 3rem;
+}
+.cofii{
+    height: fit-content;
+}
+.text-t{
+    margin: 2rem;
+    margin-top: 0;
+    text-align: justify;
+}
+
+/* partnerss section styling */
+.partners{
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+}
+.waf{
+    width: 30%;
+}
+
+/* footer/pre-footer styling */
+footer{
+    margin-top: 1rem ;
+    padding-top: 4rem ;
+}
+.pre-footer{
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin: 0 auto  -140px;
+    max-width: 1140px;
+    padding: 25px;
+    border-radius: 2rem;
+}
+.foot{
+    background-color: #f5e7e6;
+    width: 100%;
+    border-radius: 40px;
+    padding: 56px 0;
+    overflow: hidden;
+}
+.h4-pf{
+    font-size: 1.2rem;
+    margin: 1.5rem;
+}
+.p-pf{
+    margin: 1rem;
+}
+.main-footer{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:rgb(145, 104, 80);
+    padding: 3rem 0 ;
+    justify-content: space-around;
+}
+.main-footer ul li{
+    padding: 1rem;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+.main-footer ul li a{
+    font-size: 1rem;
+}
+.mf{
+    margin-top: 5rem;
+}
+.social i{
+    padding: .6rem;
+    font-size: 1.5rem;
+}
